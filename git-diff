@@ -1,2 +1,2 @@
 #!/bin/bash
-git log --author=15 --format=%H -n 1 | xargs git diff
+git log --author=15 --format=%H -n 1 | xargs git diff $@
